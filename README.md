@@ -1,6 +1,8 @@
 Web Scrapping
 ===============================
 
+**[`Runnuning Scripts on Windows`](#Runnuning-Scripts-on-Windows)__,__[`Support Vector Machine`](#support-vector-machine)__,__[`Boolean`](#boolean)__,__[`Lists`](#lists)__,__[`Dictionaries`](#dictionaries)__,__ [`Tuples`](#tuples)__,__[`Sets`](#sets)__,__[`None`](#none)**
+
 Runnuning Scripts on Windows
 --------
 The first line of all your Python programs should be a shebang line,              
