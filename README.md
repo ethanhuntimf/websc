@@ -1,7 +1,7 @@
 Web Scrapping
 ===============================
 
-**[`Runnuning Scripts on Windows`](#Runnuning-Scripts-on-Windows)__,__[`Support Vector Machine`](#support-vector-machine)__,__[`Boolean`](#boolean)__,__[`Lists`](#lists)__,__[`Dictionaries`](#dictionaries)__,__ [`Tuples`](#tuples)__,__[`Sets`](#sets)__,__[`None`](#none)**
+**[`Runnuning Scripts on Windows`](#Runnuning-Scripts-on-Windows)__,__[`Downloading a Webpage`](#downloading-a-webpage)__,__[`Savinng a webpage to Hard Disk`](#saving-a-webpage-to-hard-disk)__,__[`Lists`](#lists)__,__[`Dictionaries`](#dictionaries)__,__ [`Tuples`](#tuples)__,__[`Sets`](#sets)__,__[`None`](#none)**
 
 Runnuning Scripts on Windows
 --------
