@@ -39,6 +39,5 @@ Running pythonScript, for
 instance, will run pythonScript
 .bat, which in turn will save
 you from having to run the
-whole command py.exe C:\
-MyPythonScripts\pythonScript.py
+whole command py.exe C:\MyPythonScripts\pythonScript.py
 from the Run dialog.
