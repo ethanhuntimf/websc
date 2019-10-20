@@ -98,3 +98,7 @@ To review, here’s the complete process for downloading and saving a file:
 3. Loop over the Response object’s iter_content() method.
 4. Call write() on each iteration to write the content to the file.
 5. Call close() to close the file.
+
+
+Parsing HTML with the BeautifulSoup Module
+--------
