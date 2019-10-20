@@ -46,4 +46,7 @@ from the Run dialog.
 requests module
 --------
 First you need to install the requests module. As it does not come pre-installed with python.   
-in cmd: pip install requests            
+in cmd: 
+```cmd
+pip install requests
+```
