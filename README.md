@@ -43,7 +43,7 @@ whole command py.exe C:\MyPythonScripts\pythonScript.py
 from the Run dialog.
 
 
-requests module
+Downloading a webpage
 --------
 First you need to install the requests module. As it does not come pre-installed with python.   
 in cmd: 
@@ -76,3 +76,25 @@ try:
 except Exception as exc:
   print('There was a problem: %s' % (exc))
 ```
+
+
+Saving a webpage to hard disk
+--------
+
+```python
+>>> import requests
+>>> res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
+>>> res.raise_for_status()
+>>> playFile = open('RomeoAndJuliet.txt', 'wb')
+>>> for chunk in res.iter_content(100000):
+playFile.write(chunk)
+100000
+78981
+>>> playFile.close()
+```
+To review, here’s the complete process for downloading and saving a file:
+1. Call requests.get() to download the file.
+2. Call open() with 'wb' to create a new file in write binary mode.(binary because we need to maintain unicode)
+3. Loop over the Response object’s iter_content() method.
+4. Call write() on each iteration to write the content to the file.
+5. Call close() to close the file.
