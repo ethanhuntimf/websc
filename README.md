@@ -52,7 +52,7 @@ pip install requests
 ```
 Downloading a webpage with requests module:
 ```python
->>> import requests \\imports requests
+>>> import requests
 u >>> res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
 >>> type(res)
 <class 'requests.models.Response'>
@@ -67,3 +67,12 @@ almost no restrictions whatsoever. You may copy it, give it away or
 re-use it under the terms of the Proje
 ```
 
+We can also use exception handling to display an 404 error    
+```python
+import requests
+res = requests.get('http://inventwithpython.com/page_that_does_not_exist')
+try:
+  res.raise_for_status()
+except Exception as exc:
+  print('There was a problem: %s' % (exc))
+```
