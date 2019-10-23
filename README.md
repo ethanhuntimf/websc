@@ -104,3 +104,6 @@ To review, here’s the complete process for downloading and saving a file:
 
 Parsing HTML with the BeautifulSoup Module
 --------
+First we need to install BeautifulSoup
+```cmd
+pip install beautifulsoup4
